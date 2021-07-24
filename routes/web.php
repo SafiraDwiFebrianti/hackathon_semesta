@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/dashboard', function () {
+    return view('index');
+});
+
+Route::get('rumah_sakit', 'RsController@index')->name("rumah_sakit");
+Route::get('rumah_sakit/tambah', 'RsController@tambah')->name("rumah_sakit/tambah");
