@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Laravel')
+@section('title','RS Pelita  Harapan')
 @section('content')
 
 <section class="section">

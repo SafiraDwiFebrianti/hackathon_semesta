@@ -2,7 +2,7 @@
   <aside id="sidebar-wrapper">
     <!-- Bagian Judul Website -->
     <div class="sidebar-brand">
-      <a href="/dashboard">RS Pelita Harapan</a>
+      <a href="/dashboard">Website Resmi</a>
     </div>
 
     <!-- Side Bar Responsive -->

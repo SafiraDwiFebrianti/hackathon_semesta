@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Laravel')
+@section('title','RS Pelita  Harapan')
 @section('content')
 <div class="section-body">
   <div class="row">
@@ -119,7 +119,5 @@
 @endsection
 
 @push('page-scripts')
-<link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/css/components.css">
 
 @endpush
