@@ -36,7 +36,6 @@
             </div>
           </div>
 
-
           <div class="col-md-12">
             <div class="form-group">
               <label
@@ -47,7 +46,6 @@
               <input type="text" name="kabupaten" value="{{ old('kabupaten')}}" class="form-control">
             </div>
           </div>
-
 
           <div class="col-md-12">
             <div class="form-group">
@@ -60,7 +58,6 @@
             </div>
           </div>
 
-
           <div class="col-md-12">
             <div class="form-group">
               <label
@@ -71,7 +68,6 @@
               <input type="text" name="telp" value="{{ old('telp')}}" class="form-control">
             </div>
           </div>
-
         </div>
         </div>
 
@@ -80,9 +76,6 @@
         </div>
       </form>
       </div>
-      <div class="card">
-
-    </div>
   </div>
 </div>
 

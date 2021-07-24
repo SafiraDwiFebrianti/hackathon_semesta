@@ -13,12 +13,6 @@
           @csrf
           @method('patch')
         <div class="card-body">
-          <!-- <div class="alert alert-info">
-            <b>Note!</b> Not all browsers support HTML5 type input.
-          </div> -->
-
-
-
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">

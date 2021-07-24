@@ -8,11 +8,6 @@
   <h1>Dashboard</h1>
 </div>
 
-<div class="section-body">
-  <!-- Untuk memanggil nama user yang berhasil login -->
-  <!-- Welcome, bro! -->
-</div>
-
 <div class="row">
   <!-- Dashboard Admin -->
   <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -28,7 +23,7 @@
         </div>
         <!-- Isi -->
         <div class="card-body">
-          2
+          5
         </div>
       </div>
     </div>
@@ -106,6 +101,7 @@
           <a href="" class="btn btn-primary">Indonesia</a>
       </div>
     </div>
+
     <div class="card-body">
       <div class="statistic-details">
         <div class="statistic-details-item">
@@ -116,6 +112,7 @@
           <div class="detail-value">3,03 jt</div>
           <div class="detail-name">Total Kasus</div>
         </div>
+
         <div class="statistic-details-item">
           <span class="text-muted"><span class="text-danger">
             <i class="fas fa-caret-up"></i>
@@ -123,6 +120,7 @@
           <div class="detail-value">2,39 jt</div>
           <div class="detail-name">Sembuh</div>
         </div>
+
         <div class="statistic-details-item">
           <span class="text-muted"><span class="text-primary">
             <i class="fas fa-caret-down"></i>
@@ -130,8 +128,8 @@
           <div class="detail-value">79.032</div>
           <div class="detail-name">Meninggal Dunia</div>
         </div>
-      </div>
 
+      </div>
     </div>
 </div>
 </div>

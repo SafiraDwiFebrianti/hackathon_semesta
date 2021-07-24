@@ -50,15 +50,12 @@
           <td>
             <a href="{{ route('rumah_sakit/edit', $data->id) }}" class="badge badge-success">Edit</a>
             <a href="#" data-id="{{ $data->id }}" class="badge badge-danger swal-confirm">
-              <form action="{{ route('rumah_sakit/delete',$data->id) }}" id="delete{{ $data->id }}" method="post">
+              <form action="{{ route('rumah_sakit/delete' ,$data->id) }}" id="delete{{ $data->id }}" method="post">
                 @csrf
                 @method('delete')
               </form>
               Delete
             </a>
-
-            <!-- <a href="#" class="badge badge-danger">Delete</a> -->
-
           </td>
         </tr>
         @endforeach
