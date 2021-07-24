@@ -24,11 +24,11 @@
       <div class="card-wrap">
         <!-- Judul -->
         <div class="card-header">
-          <h4>Total Admin</h4>
+          <h4>Total RS</h4>
         </div>
         <!-- Isi -->
         <div class="card-body">
-          10
+          2
         </div>
       </div>
     </div>
@@ -97,6 +97,57 @@
     </div>
   </div>
 
+
+<div class="col-lg-8 col-md-12 col-12 col-sm-12">
+  <div class="card">
+    <div class="card-header">
+      <h4>Ringkasan Kasus (24 Juli 2021)</h4>
+      <div class="card-header-action">
+          <a href="" class="btn btn-primary">Indonesia</a>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="statistic-details">
+        <div class="statistic-details-item">
+          <span class="text-muted">
+            <span class="text-danger">
+            <i class="fas fa-caret-up"></i>
+            </span> 7%</span>
+          <div class="detail-value">3,03 jt</div>
+          <div class="detail-name">Total Kasus</div>
+        </div>
+        <div class="statistic-details-item">
+          <span class="text-muted"><span class="text-danger">
+            <i class="fas fa-caret-up"></i>
+            </span> 23%</span>
+          <div class="detail-value">2,39 jt</div>
+          <div class="detail-name">Sembuh</div>
+        </div>
+        <div class="statistic-details-item">
+          <span class="text-muted"><span class="text-primary">
+            <i class="fas fa-caret-down"></i>
+          </span>9%</span>
+          <div class="detail-value">79.032</div>
+          <div class="detail-name">Meninggal Dunia</div>
+        </div>
+      </div>
+
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 </div>
 </section>
 
@@ -104,4 +155,5 @@
 @endsection
 
 @push('page-scripts')
+
 @endpush

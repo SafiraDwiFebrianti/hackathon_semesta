@@ -14,7 +14,7 @@
       <!-- Judul 1 -->
         <li class="menu-header">Dashboard</li>
         <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+          <a href="/dashboard" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
         </li>
 
         <!-- Judul 2 -->
