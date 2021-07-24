@@ -11,7 +11,7 @@ class RsController extends Controller
 
   // tampilkan data
   public function index(){
-    $rumah_sakit = DB::table('rumah_sakit')->paginate(3);
+    $rumah_sakit = DB::table('rumah_sakit')->paginate(4);
     return view('rs', ['rumah_sakit' => $rumah_sakit]);
   }
 

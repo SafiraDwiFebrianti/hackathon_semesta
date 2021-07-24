@@ -10,7 +10,7 @@ class MasyarakatController extends Controller
 {
   // tampilkan data
   public function index(){
-    $masyarakat = DB::table('masyarakat')->paginate(3);
+    $masyarakat = DB::table('masyarakat')->paginate(4);
     return view('masyarakat', ['masyarakat' => $masyarakat]);
   }
 

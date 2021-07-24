@@ -9,7 +9,7 @@ class PetugasController extends Controller
 {
   // tampilkan data
   public function index(){
-    $users = DB::table('users')->paginate(3);
+    $users = DB::table('users')->paginate(4);
     return view('petugas', ['users' => $users]);
   }
 

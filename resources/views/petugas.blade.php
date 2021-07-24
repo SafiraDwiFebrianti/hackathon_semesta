@@ -6,7 +6,7 @@
   <div class="section-header">
     <h1>Petugas</h1>
     <div class="section-header-breadcrumb">
-      <div class="breadcrumb-item"><a href="rumah_sakit">Petugas</a></div>
+      <div class="breadcrumb-item"><a href="petugas">Petugas</a></div>
       <div class="breadcrumb-item">Data Petugas</div>
     </div>
   </div>

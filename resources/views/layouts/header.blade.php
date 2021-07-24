@@ -12,7 +12,7 @@
       <!-- Gambar Profile -->
       <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
       <!-- Pemanggilan User -->
-      <div class="d-sm-none d-lg-inline-block">Hi, Paijo</div></a>
+      <div class="d-sm-none d-lg-inline-block">Welcome, Petugas</div></a>
       <!-- Menu Dropdown -->
       <div class="dropdown-menu dropdown-menu-right">
         <div class="dropdown-title">Logged in 5 min ago</div>

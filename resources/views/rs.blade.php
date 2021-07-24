@@ -56,6 +56,9 @@
               </form>
               Delete
             </a>
+
+            <!-- <a href="#" class="badge badge-danger">Delete</a> -->
+
           </td>
         </tr>
         @endforeach
