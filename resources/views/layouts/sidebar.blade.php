@@ -19,7 +19,6 @@
 
         <!-- Judul 2 -->
         <li class="menu-header">Starter</li>
-
         <!-- Bagian CRUD Dengan Dropdown -->
         <li class="nav-item dropdown">
           <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
@@ -29,9 +28,23 @@
           <!-- Halaman Dropdown CRUD -->
           <ul class="dropdown-menu">
             <li><a class="nav-link" href="rumah_sakit">Data Rumah Sakit</a></li>
-            <!-- <li><a class="nav-link" href="#">Data User</a></li>
-            <li><a class="nav-link" href="#">Data Transaksi</a></li> -->
           </ul>
+        </li>
+
+        <!-- Bagian Registrasi Vaksin-->
+        <li class="nav-item">
+          <a href="masyarakat" class="nav-link">
+            <i class="far fa-file-alt"></i>
+            <span>Registrasi Vaksin</span>
+          </a>
+        </li>
+
+        <!-- Bagian Petugas-->
+        <li class="nav-item">
+          <a href="petugas" class="nav-link">
+            <i class="fas fa-user"></i>
+            <span>Data Petugas</span>
+          </a>
         </li>
 
       </ul>

@@ -28,5 +28,13 @@ Route::group(['middleware' => 'CekLoginMiddleware'], function (){
   Route::delete('rumah_sakit/{id}', 'RsController@delete')->name("rumah_sakit/delete");
   Route::get('rumah_sakit/{id}/edit', 'RsController@edit')->name("rumah_sakit/edit");
   Route::patch('rumah_sakit/{id}', 'RsController@update')->name("rumah_sakit/update");
+
+  Route::get('petugas', 'PetugasController@index')->name("petugas");
+
+  Route::get('masyarakat', 'MasyarakatController@index')->name("masyarakat");
+  Route::get('masyarakat/tambah', 'MasyarakatController@tambah')->name("masyarakat/tambah");
+  Route::post('masyarakat', 'MasyarakatController@simpan')->name("masyarakat/simpan");
+  Route::delete('masyarakat/{id}', 'MasyarakatController@delete')->name("masyarakat/delete");
+
   Route::get('/logout', 'Autentikasi\AutentikasiController@logout')->name("logout");
 });
